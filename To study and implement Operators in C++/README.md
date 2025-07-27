@@ -1,4 +1,4 @@
-# **Experiment: C++ Operators**
+# **Experiment 3: C++ Operators**
 
 ---
 
