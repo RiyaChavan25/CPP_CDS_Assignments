@@ -1,4 +1,4 @@
-# **Experiment 6: C++ Decision Making Statements**
+# **Experiment 5: C++ Decision Making Statements**
 
 ---
 
