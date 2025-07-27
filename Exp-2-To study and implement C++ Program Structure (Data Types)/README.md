@@ -1,55 +1,146 @@
-Aim: To study and implement C++ Program Structure (Data Types).
+# **Experiment 2: C++ Program Structure (Data Types)**
 
-Tools Used: VS Code or Programiz online compiler
+---
 
-Theory
-This program illustrates the use of different basic data types in C++: int, float, char, double, string, and bool. It accepts user inputs for each type, displays the entered values, and shows their memory sizes using the sizeof() operator.
+### **Aim**
 
-Integer (int)
-The program asks the user to enter an integer, then displays both the number and its memory size using sizeof(). Typically, integers occupy 4 bytes, storing whole numbers without decimals. This size allows values ranging from approximately -2.1 billion to 2.1 billion.
+To study and implement C++ program structure using different **data types**.
 
-Floating-Point (float)
-The user enters a floating-point number, which the program then displays along with its storage size. Typically, a float occupies 4 bytes of memory, allowing it to store decimal values with about 6-7 digits of precision. While useful for many calculations, floats have precision limitations compared to double-precision numbers.
+---
 
-Character (char)
-The program reads a single character from user input, prints it, and displays its size. A character occupies 1 byte, sufficient to store an ASCII character.
+### **Tools Used**
 
-Double (double)
-The program requests a double-precision number from the user and displays both the value and its memory usage. Doubles require 8 bytes of storage, providing 15-16 digits of precision and a broader value range compared to standard floats.
+* VS Code
+* Programiz Online C++ Compiler
 
-String (string)
-The program prompts the user to enter a word (reading until the first space), then displays both the entered text and its memory footprint. While the sizeof(string) operator returns 24 bytes (the fixed size of the string object structure), this doesn't reflect the actual string length, which varies based on content.
+---
 
-Boolean (bool)
-The program accepts a boolean input (where 0 = false, 1 = true), displays the value, and prints the size of the boolean type, which is 1 byte.
+## **Theory**
 
-Key Concepts
-1.sizeof() Operator: Measures the memory (in bytes) occupied by a given data type.
-2.Data Representation: Shows how different C++ data types store values and their memory requirements. 
-3.User Interaction: For each data type, the program prompts the user, reads input using cin, then displays the entered value and its memory size.
+This program demonstrates the use of fundamental C++ data types:
 
-Program Structure
+* `int`
+* `float`
+* `char`
+* `double`
+* `string`
+* `bool`
+
+The program:
+
+* Accepts user inputs for each type
+* Displays the entered value
+* Shows memory size using the `sizeof()` operator
+
+---
+
+### **Data Types Overview**
+
+#### 🔹 **Integer (`int`)**
+
+* Stores whole numbers (e.g., 42)
+* Occupies 4 bytes
+* Range: \~ -2.1 billion to +2.1 billion
+
+#### 🔹 **Float (`float`)**
+
+* Stores decimal numbers (e.g., 3.14)
+* Occupies 4 bytes
+* Precision: \~6–7 digits
+
+#### 🔹 **Character (`char`)**
+
+* Stores a single ASCII character (e.g., `A`)
+* Occupies 1 byte
+
+#### 🔹 **Double (`double`)**
+
+* Stores high-precision decimal values (e.g., 3.1415926535)
+* Occupies 8 bytes
+* Precision: \~15–16 digits
+
+#### 🔹 **String (`string`)**
+
+* Stores a sequence of characters (e.g., "Hello")
+* Typically uses 24 bytes as object size (content size varies)
+
+#### 🔹 **Boolean (`bool`)**
+
+* Stores truth values (`true` or `false`)
+* Occupies 1 byte
+* Input as 1 (true) or 0 (false)
+
+---
+
+## **Key Concepts**
+
+1. **`sizeof()` Operator**
+   Measures memory (in bytes) occupied by a variable or data type.
+
+2. **Data Representation**
+   Understand how each data type behaves in terms of input/output and storage.
+
+3. **User Interaction**
+   Inputs taken using `cin` and displayed using `cout`.
+
+---
+
+## **Program Structure**
+
 The program includes:
 
-#include for basic input/output operations.
-#include to handle string data type.
-using namespace std; to avoid repeatedly using std:: before cout, cin, and string.
-Algorithm
-Start the program.
+* `#include <iostream>` for input/output
+* `#include <string>` for string manipulation
+* `using namespace std;` to avoid `std::` prefix
 
-Integer (int) Declare variable a. Prompt: "Enter integer number" → Read input into a. Output: Value of a and sizeof(a).
+---
 
-Float (float) Declare variable b. Prompt: "Enter floating number" → Read input into b. Output: Value of b and sizeof(b).
+## **Algorithm**
 
-Character (char) Declare variable c. Prompt: "Enter Character" → Read input into c. Output: Value of c and sizeof(c).
+### **Start the Program**
 
-Double (double) Declare variable e. Prompt: "Enter double number" → Read input into e. Output: Value of e and sizeof(e).
+#### 1. **Integer (int)**
 
-String (string) Declare variable f. Prompt: "Enter String" → Read input into f. Output: Value of f and sizeof(f) (returns fixed object size, not string length).
+* Declare variable `a`
+* Prompt: `Enter integer number:`
+* Input: `cin >> a;`
+* Output: `Value and sizeof(a)`
 
-Boolean (bool) Declare variable d. Prompt: "Enter Boolean value" → Read input into d. Output: Value of d and sizeof(d).
+#### 2. **Float (float)**
 
-End the program.
+* Declare variable `b`
+* Prompt: `Enter floating number:`
+* Output: `Value and sizeof(b)`
 
-Conclusion
-Hence, we were able to understand about various data types in C++ and the memory size they occupy.
+#### 3. **Character (char)**
+
+* Declare variable `c`
+* Prompt: `Enter Character:`
+* Output: `Value and sizeof(c)`
+
+#### 4. **Double (double)**
+
+* Declare variable `e`
+* Prompt: `Enter double number:`
+* Output: `Value and sizeof(e)`
+
+#### 5. **String (string)**
+
+* Declare variable `f`
+* Prompt: `Enter String:`
+* Output: `Value and sizeof(f)`
+
+#### 6. **Boolean (bool)**
+
+* Declare variable `d`
+* Prompt: `Enter Boolean value:`
+* Output: `Value and sizeof(d)`
+
+### **End the Program**
+
+---
+
+## **Conclusion**
+
+Hence, we successfully implemented a C++ program to explore various **data types** and observed the **memory size** each occupies using the `sizeof()` operator. This forms a strong foundation for understanding variable storage and usage in real-world C++ applications.
+
