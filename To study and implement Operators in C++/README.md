@@ -1,68 +1,147 @@
-Aim: To study and implement Operators in C++.
+# **Experiment: C++ Operators**
 
-Tools Used: VS Code or Programiz online compiler
+---
 
-Theory
-Operators in C++ are special symbols or keywords that perform operations on data and evaluate expressions. They are categorized based on their functionality, including arithmetic, relational, logical, and other types of operations.
+### **Aim**
 
-Arithmetic Operators
-These operators perform mathematical calculations between two or more numeric values. The fundamental arithmetic operators include addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). They are essential for various computational tasks, from simple calculations to complex algorithms in fields like finance, scientific computing, and game development.
+To study and implement **Operators in C++**.
 
-Relational Operators
-Relational operators compare two values or expressions, returning a boolean result (true or false) based on their relationship. Common relational operators include less than (<), greater than (>), equal to (==), not equal to (!=), less than or equal to (<=), and greater than or equal to (>=). These operators are crucial for controlling program flow in conditional statements (if, while, for) and for making decisions based on value comparisons.
+---
 
-Logical Operators
-Logical operators work with boolean values to combine or modify conditions. The primary logical operators are AND (&&), OR (||), and NOT (!). They enable complex condition evaluation by combining multiple relational expressions or inverting boolean results. These operators are particularly useful for implementing decision-making logic where multiple conditions must be satisfied simultaneously or alternatively.
+### **Tools Used**
 
-Program-1: To check if a number is Positive, Negative or Zero
-This program accepts an integer from the user and checks whether it is positive, negative, or zero using conditional statements.
+* Visual Studio Code
+* Programiz Online Compiler
 
--The user is prompted to enter a number. -The program uses if, else if, and else statements to check: If the number is greater than 0, it prints "Number is POSITIVE." If the number is less than 0, it prints "Number is NEGATIVE." If the number is equal to 0, it prints "Number is ZERO."
+---
 
--Algorithm:
+## **Theory**
 
-Start
-Input number num
-If num > 0, print "Positive"
-Else if num < 0, print "Negative"
-Else, print "Zero"
-End
+Operators in C++ are **symbols or keywords** used to perform operations on variables and values. They help in forming expressions and evaluating results.
 
-Program-2: To calculate average marks and display the Grade
-This program accepts marks for five subjects, calculates the average, and assigns a grade based on the average score.
+---
 
--The program takes input for five subjects: DCLD, NT, EDC, SnS, and MTT. -It calculates the average by adding all subject marks and dividing by 5. ->Based on the average, it assigns grades using if-else conditions as follows: O Grade: 90–100 A+ Grade: 80–89 A Grade: 70–79 B Grade: 60–69 C Grade: 50–59 FAIL: Below 50 ->If the calculated average is outside 0–100, it displays an error message to enter valid marks.
+### **1. Arithmetic Operators**
 
-Algorithm:
+Used to perform **mathematical operations**:
 
-Start.
-Input marks for 5 subjects.
-Calculate average = total / 5.
-If average < 0 or > 100 → print "Invalid input"
-Else if average > 90 → print "O Grade"
-Else if average ≥ 81 → print "A+ Grade"
-Else if average ≥ 71 → print "A Grade"
-Else if average ≥ 61 → print "B Grade"
-Else if average ≥ 51 → print "C Grade"
-Else → print "Fail"
+* `+` Addition
+* `-` Subtraction
+* `*` Multiplication
+* `/` Division
+* `%` Modulus
 
-Program-3: Co-ordinate Quadrant
-This program identifies the position of a point (x, y) in a 2D Cartesian coordinate system based on its x and y coordinates.
+🔹 **Applications:** Basic calculations, finance, algorithms, etc.
 
--The program takes two integer inputs: x-coordinate and y-coordinate. -It then uses if-else conditions to determine the point's location: 1st Quadrant: x > 0 and y > 0. 2nd Quadrant: x < 0 and y > 0. 3rd Quadrant: x < 0 and y < 0. 4th Quadrant: x > 0 and y < 0. On X-axis: y = 0 and x ≠ 0. On Y-axis: x = 0 and y ≠ 0. At Origin: x = 0 and y = 0. -The program prints the appropriate message indicating the point’s position.
+---
 
-Algorithm:
+### **2. Relational Operators**
 
-Start.
-Input x and y.
-If x > 0 and y > 0 → print "1st Quadrant"
-Else if x < 0 and y > 0 → print "2nd Quadrant"
-Else if x < 0 and y < 0 → print "3rd Quadrant"
-Else if x > 0 and y < 0 → print "4th Quadrant"
-Else if x == 0 and y != 0 → print "Y-axis"
-Else if y == 0 and x != 0 → print "X-axis"
-Else → print "Origin"
-End.
+Used to **compare** values and return a boolean result:
 
-Conclusion
-Hence, we used Logical Operators and Relational Operators in the above 3 codes and executed the decision-making statements to get an accurate output.
+* `<`, `>`, `<=`, `>=`
+* `==` Equal to
+* `!=` Not equal to
+
+🔹 **Applications:** Decision-making in `if`, `while`, `for`, etc.
+
+---
+
+### **3. Logical Operators**
+
+Used to evaluate **boolean expressions**:
+
+* `&&` Logical AND
+* `||` Logical OR
+* `!` Logical NOT
+
+🔹 **Applications:** Multi-condition checks in decision-making.
+
+---
+
+## 💻 **Program 1: Positive, Negative or Zero Checker**
+
+### **Description**
+
+Checks whether a number entered by the user is **positive**, **negative**, or **zero**.
+
+### **Algorithm**
+
+1. Start
+2. Input number `num`
+3. If `num > 0` → Print "Positive"
+4. Else if `num < 0` → Print "Negative"
+5. Else → Print "Zero"
+6. End
+
+---
+
+## **Program 2: Average Marks & Grade Calculator**
+
+### **Description**
+
+Takes marks of 5 subjects and assigns a **grade** based on the average.
+
+### **Grading Criteria**
+
+| Range  | Grade |
+| ------ | ----- |
+| 90–100 | O     |
+| 81–89  | A+    |
+| 71–80  | A     |
+| 61–70  | B     |
+| 51–60  | C     |
+| < 50   | Fail  |
+
+### **Algorithm**
+
+1. Start
+2. Input marks of 5 subjects
+3. Compute `average = total / 5`
+4. If `average < 0` or `average > 100` → Invalid
+5. Else if `average >= 90` → O Grade
+6. Else if `average >= 81` → A+ Grade
+7. Else if `average >= 71` → A Grade
+8. Else if `average >= 61` → B Grade
+9. Else if `average >= 51` → C Grade
+10. Else → Fail
+11. End
+
+---
+
+## **Program 3: Coordinate Quadrant Finder**
+
+### **Description**
+
+Identifies the **position of a point** in the 2D coordinate plane based on `x` and `y` values.
+
+### **Quadrant Logic**
+
+* 1st Quadrant: `x > 0 && y > 0`
+* 2nd Quadrant: `x < 0 && y > 0`
+* 3rd Quadrant: `x < 0 && y < 0`
+* 4th Quadrant: `x > 0 && y < 0`
+* On X-axis: `y == 0 && x != 0`
+* On Y-axis: `x == 0 && y != 0`
+* At Origin: `x == 0 && y == 0`
+
+### **Algorithm**
+
+1. Start
+2. Input `x`, `y`
+3. Use conditions to check position
+4. Print respective location
+5. End
+
+---
+
+## **Conclusion**
+
+We implemented **arithmetic, relational, and logical operators** through:
+
+* Number classification
+* Grade calculation
+* Quadrant detection
+
+These examples demonstrate **decision-making** using operator-based logic in C++.
+
