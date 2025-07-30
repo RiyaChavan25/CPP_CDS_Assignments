@@ -83,11 +83,11 @@ Pattern printing utilizes **nested loops** to generate visual patterns using `*`
 
 ---
 
-## 🧠 **Programs & Algorithms**
+##**Programs & Algorithms**
 
 ---
 
-### 🔹 **Program 1: Print Even Numbers (0–10)**
+### **Program 1: Print Even Numbers (0–10)**
 
 **Loop:** `for`
 **Logic:** Print numbers divisible by 2 between 0–10.
@@ -101,7 +101,7 @@ Pattern printing utilizes **nested loops** to generate visual patterns using `*`
 
 ---
 
-### 🔹 **Program 2: Print a Word 5 Times**
+### **Program 2: Print a Word 5 Times**
 
 **Loop:** `for`
 **Logic:** Repeat `"SIT"` five times.
@@ -115,7 +115,7 @@ Pattern printing utilizes **nested loops** to generate visual patterns using `*`
 
 ---
 
-### 🔹 **Program 3: Print Numbers 1–20**
+### **Program 3: Print Numbers 1–20**
 
 **Loop:** `while`
 **Logic:** Use `while` loop to print numbers.
@@ -132,7 +132,7 @@ Pattern printing utilizes **nested loops** to generate visual patterns using `*`
 
 ---
 
-### 🔹 **Program 4: Password Checker**
+### **Program 4: Password Checker**
 
 **Loop:** `while`
 **Logic:** Loop until correct password is entered or user exits.
@@ -151,7 +151,7 @@ Pattern printing utilizes **nested loops** to generate visual patterns using `*`
 
 ---
 
-### 🔹 **Program 5: Reverse a Number**
+### **Program 5: Reverse a Number**
 
 **Loop:** `while`
 **Logic:** Use modulo and division to reverse digits.
@@ -171,7 +171,7 @@ Pattern printing utilizes **nested loops** to generate visual patterns using `*`
 
 ## **Nested Loop Programs**
 
-### 🔹 **Demo: Outer & Inner Loop Execution**
+### **Demo: Outer & Inner Loop Execution**
 
 Prints `(i, j)` pairs for outer (1–2) and inner (1–3).
 
@@ -187,7 +187,7 @@ Prints `(i, j)` pairs for outer (1–2) and inner (1–3).
 
 ---
 
-### 🔹 **1. Simple Pyramid**
+### **1. Simple Pyramid**
 
 ```plaintext
 *
@@ -202,7 +202,7 @@ Prints `(i, j)` pairs for outer (1–2) and inner (1–3).
 
 ---
 
-### 🔹 **2. Flipped Pyramid**
+### **2. Flipped Pyramid**
 
 ```plaintext
     *
@@ -218,7 +218,7 @@ Prints `(i, j)` pairs for outer (1–2) and inner (1–3).
 
 ---
 
-### 🔹 **3. Inverted Pyramid**
+### **3. Inverted Pyramid**
 
 ```plaintext
 * * *
@@ -234,7 +234,7 @@ Prints `(i, j)` pairs for outer (1–2) and inner (1–3).
 
 ---
 
-### 🔹 **4. Floyd’s Triangle**
+### **4. Floyd’s Triangle**
 
 ```plaintext
 1
@@ -251,7 +251,7 @@ Prints `(i, j)` pairs for outer (1–2) and inner (1–3).
 
 ---
 
-### 🔹 **5. Floyd’s Triangle**
+### **5. Floyd’s Triangle**
 
 ```plaintext
 A
@@ -268,7 +268,7 @@ D E F
 
 ---
 
-### 🔹 **6. Hourglass Pattern**
+### **6. Hourglass Pattern**
 
 **Logic:** Combines inverted and upright pyramids.
 
